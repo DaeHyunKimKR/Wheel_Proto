@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="robot_test" type="dynamixel_test" name="dynamixel_test" />
+  <node pkg="joy" type="joy_node" name="joy_node" />
+</launch>
